@@ -20,3 +20,10 @@ Then permissions of user, group and all
 
 ## I/O
 The metacharacter `<` allows us to redirect the standard in to a file; also, the metacharacter `>` allows us to redirect the standard out to a file. The `>>` metacharacter adds the stdout to a pointed file.
+
+
+## How would you check all the variables currently defined?
+With the `set` command.
+
+## How to redirect the stderr?
+With the metacharacter '2>'.
