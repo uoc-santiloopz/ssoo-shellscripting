@@ -18,6 +18,9 @@ Then permissions of user, group and all
 * ?: represents any single cheracter. `ls /bin/l???n`
 * [ ]: represents a character within a range. `ls /bin/[aeiou]*[a-f]`
 
+## PROCESSES
+The command `ps` informs on all the processes existing on the current window, it can be parametrized to informa about the processes of a certain user with `-u`.
+
 ## I/O
 The metacharacter `<` allows us to redirect the standard in to a file; also, the metacharacter `>` allows us to redirect the standard out to a file. The `>>` metacharacter adds the stdout to a pointed file.
 
